@@ -13,17 +13,23 @@ I will not accept any push or merge requests as this is my own work used to show
 
 ## Installation instructions
 1. Clone this repository.
-2. Open in Visual Studio
+2. Open *"StudentApplication.sln"* in Visual Studio
 3. Verify you have a *"MSSQLLocalDB"* instance installation on your machine by the following steps.
     - In Package Manager Console, type...
-     `SqlLocalDB info`
+
+    `SqlLocalDB info`
+
     - Verify that *"MSSQLLocalDB"* appears in the list,
-    - if not.. In Package Mananger Console type...
+    - if not, in Package Mananger Console type...
+
      `SqlLocalDB create "MSSQLLocalDB"`
+
       ...to create a new DB instance.
 6. In the Package Manager Console, select the project *"StudentApp_Controller"*.
 7. In Package Manager Console type...
+
     `update-database`
+
    ...this will build the database and fill it with seed data.
 8. The Project can now be run in Visual Studio with the shortcut **CTRL/F5**.
 
