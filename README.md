@@ -3,7 +3,7 @@
 ## About
 This project is the continued development of the Major Project for the **Diploma of Software Development** that I successfully completed in the 2nd semester of 2020.
 
-This was built in Visual Studio 2019 using Entity Framework 6 with code-first methodology to build and seed the database. The MSSQL database and C# code was originally designed according to the business rules laid out in the specifications for the assignemnt. It was designed as an administrative tool for a training provider. It has since been refactored and modified for some improvements and potential future modifications.
+This was built in Visual Studio 2019 using Entity Framework 6 with code-first methodology to build and seed the database. The MSSQL database and C# code was originally designed according to the business rules laid out in the specifications for the assignment. It was designed as an administrative tool for a training provider. It has since been refactored and modified for some improvements and potential future modifications.
 
 I will not accept any push or merge requests as this is my own work used to show an example of my abilities.
 
@@ -46,7 +46,7 @@ I think I have the right idea, but very likely the wrong implementaion of the Bu
 - [ ] A login system for students, teachers or administrators (delayed for my own sanity during development)
 - [ ] Teachers assigned to a college
 - [ ] Units assigned to subjects and subjects assigned to courses
-- [ ] CVS Export
+- [ ] CSV Export
 - [ ] Additional/Amended Invoice
 - [ ] Make the columns sortable on the transactions page.
 - [ ] Completely redo unit tests
