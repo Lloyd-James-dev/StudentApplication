@@ -8,7 +8,7 @@ This was built in Visual Studio 2019 using Entity Framework 6 with code-first me
 I will not accept any push or merge requests as this is my own work used to show an example of my abilities.
 
 ## Prerequisites
-- Visual Studio
+- Visual Studio 2019 + Data storage and processing component with SQL Server Data Tools selected
 - MSSQLLocalDB instance
 
 ## Installation instructions
@@ -17,12 +17,12 @@ I will not accept any push or merge requests as this is my own work used to show
 3. Verify you have a *"MSSQLLocalDB"* instance installation on your machine by the following steps.
     - In Package Manager Console, type...
 
-    `SqlLocalDB info`
+        `SqlLocalDB info`
 
     - Verify that *"MSSQLLocalDB"* appears in the list,
     - if not, in Package Mananger Console type...
 
-     `SqlLocalDB create "MSSQLLocalDB"`
+        `SqlLocalDB create "MSSQLLocalDB"`
 
       ...to create a new DB instance.
 6. In the Package Manager Console, select the project *"StudentApp_Controller"*.
@@ -30,7 +30,7 @@ I will not accept any push or merge requests as this is my own work used to show
 
     `update-database`
 
-   ...this will build the database and fill it with seed data.
+   ...this will build the database and seed it with data.
 8. The Project can now be run in Visual Studio with the shortcut **CTRL/F5**.
 
 ## Known issues and potential future changes
@@ -42,7 +42,7 @@ I think I have the right idea, but very likely the wrong implementaion of the Bu
 
 ### Tasks - not part of original scope (including wishlist)
 - [x] Transactions page
-- [ ] Convert from .NET Framework to a ASP.NET Core
+- [ ] Convert from .NET Framework to ASP.NET Core
 - [ ] A login system for students, teachers or administrators (delayed for my own sanity during development)
 - [ ] Teachers assigned to a college
 - [ ] Units assigned to subjects and subjects assigned to courses
