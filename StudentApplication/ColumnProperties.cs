@@ -616,7 +616,7 @@ namespace StudentApplication {
             DataPropertyName = "SubjectId",
             ValueType = typeof(int),
             Width = 200,
-            DisplayIndex = 6, // includes hidden columns
+            DisplayIndex = 5, // includes hidden columns
             //MinimumWidth = 200,
             AutoSizeMode = DataGridViewAutoSizeColumnMode.None,
             SortMode = DataGridViewColumnSortMode.Automatic

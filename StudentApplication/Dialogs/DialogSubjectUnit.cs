@@ -47,7 +47,6 @@ namespace StudentApplication.Dialogs {
                 GridView = DGV_DialogSubjectUnit,
                 TabledData = cmd.SpecialSubjectUnit(semesterKey.Key, collegeId, courseCode),
                 DataGridViewColumns = new DataGridViewColumn[]{
-                    columnProperties.courseCode_Hidden,
                     columnProperties.unitCode,
                     columnProperties.unitDescription,
                     columnProperties.subjectId_Hidden,

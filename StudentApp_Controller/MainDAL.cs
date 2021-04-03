@@ -1608,8 +1608,7 @@ namespace StudentApp_Controller {
                         (left, joined) => new { uc = left, us = joined })
                     .SelectMany(
                         left => left.us.DefaultIfEmpty(),
-                        (left, joined) => new { 
-                            CourseCode = left.uc.CourseCode, 
+                        (left, joined) => new {
                             UnitCode = left.uc.UnitCode,
                             UnitDescription = left.uc.Description,
                             SubjectId = joined?.SubjectId ?? 0,
